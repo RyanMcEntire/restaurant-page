@@ -28,3 +28,14 @@ body {
   font-size: 4rem;
   margin: 0.5rem;
 }
+
+#navContainer {
+  display: flex;
+  margin: 1rem;
+}
+
+#navContainer > div {
+  padding: 1rem 2rem;
+  border-style: solid;
+  
+}
