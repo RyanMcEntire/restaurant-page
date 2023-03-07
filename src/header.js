@@ -1,3 +1,5 @@
+const content = document.querySelector("#content");
+
 const mainHeader = () => {
   const headerContainer = document.createElement("div");
   headerContainer.classList.add("headerContainer");
@@ -11,6 +13,7 @@ const mainHeader = () => {
   title.setAttribute("id", "title");
   title.textContent = "The Full Potato";
   headerContainer.appendChild(title);
+  content.appendChild(headerContainer)
   return headerContainer;
 };
 
@@ -32,6 +35,7 @@ const headerNav = () => {
   contactButton.setAttribute("id", "contactButton");
   contactButton.textContent = "Contact";
   navContainer.appendChild(contactButton);
+  content.appendChild(navContainer);
   return navContainer;
 };
 

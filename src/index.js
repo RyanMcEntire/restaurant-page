@@ -3,7 +3,6 @@ import { mainHeader, headerNav } from "./header.js"
 
 console.log("cosnole lot dog");
 
-const content = document.querySelector("#content");
-
-content.appendChild(mainHeader()); 
-content.appendChild(headerNav()); 
+// const content = document.querySelector("#content");
+mainHeader(); 
+headerNav();
