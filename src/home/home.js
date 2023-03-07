@@ -33,6 +33,12 @@ const home = () => {
   homeContainer.appendChild(location);
 
   content.appendChild(homeContainer);
+  
+  
+  const homeButton = document.querySelector("#homeButton");
+  homeButton.classList.add("currentTab");
+  
+
   return homeContainer;
 };
 
