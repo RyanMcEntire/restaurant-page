@@ -13,7 +13,7 @@ const mainHeader = () => {
   title.setAttribute("id", "title");
   title.textContent = "The Full Potato";
   headerContainer.appendChild(title);
-  content.appendChild(headerContainer)
+  content.appendChild(headerContainer);
   return headerContainer;
 };
 
