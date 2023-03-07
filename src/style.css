@@ -1,5 +1,30 @@
 body {
   margin: 0;
   background-color: #363732;
-  background: url("./home/many-potato.jpg");
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #faffd8;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header {
+  background-image: url("./many-potato.jpg");
+  background-position-x: center;
+  background-size: cover;
+  width: 100vw;
+  height: 25rem;
+}
+
+#title {
+  font-size: 4rem;
+  margin: 0.5rem;
 }

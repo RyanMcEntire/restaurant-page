@@ -1,3 +1,8 @@
-import "./style.css"
+import "./style.css";
+import { mainHeader } from "./header.js"
 
-console.log("OKAY BOOMER");
+console.log("cosnole lot dog");
+
+const content = document.querySelector("#content");
+
+content.appendChild(mainHeader()); 
