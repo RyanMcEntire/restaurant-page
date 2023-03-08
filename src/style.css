@@ -52,6 +52,10 @@ body {
   border-radius: 1rem 1rem 0rem 0rem;
 }
 
+#navContainer > div:hover {
+  cursor: pointer;
+}
+
 #navContainer > .currentTab {
   border-bottom-style: none;
   border-bottom: 0rem;
