@@ -7,7 +7,7 @@ body {
   margin: 0;
   background-color: var(--main-bg-color);
   font-size: 1.2rem;
-  line-height: 1.4;   
+  line-height: 1.4;
 }
 
 #content {
@@ -28,7 +28,7 @@ body {
   background-position-x: center;
   background-size: cover;
   width: 100vw;
-  height: 20rem;
+  height: 18rem;
 }
 
 #title {
@@ -48,7 +48,7 @@ body {
   padding: 1rem 2rem;
   border-style: solid;
   border-width: 0.3rem;
-  border-bottom-color: #575848;
+  border-bottom-color: #2e3027;
   border-radius: 1rem 1rem 0rem 0rem;
 }
 
@@ -59,7 +59,8 @@ body {
 }
 
 .homeContainer,
-.menuContainer {
+.menuContainer,
+.contactContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,24 +70,22 @@ body {
   border-radius: 1rem;
 }
 
-#copy {
+/* #copy {
   align-items: center;
-}
+} */
 
-#hours, #fullMenu {
+#hours,
+#copy,
+#fullMenu,
+#location,
+#fullContact {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
-#location {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.menuImage {
-  width: 25rem; 
+.menuImage,
+.contactImage {
+  width: 25rem;
   margin-top: 2rem;
 }

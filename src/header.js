@@ -23,16 +23,19 @@ const headerNav = () => {
 
   const homeButton = document.createElement("div");
   homeButton.setAttribute("id", "homeButton");
+  homeButton.setAttribute("value", "home");
   homeButton.textContent = "Home";
   navContainer.appendChild(homeButton);
 
   const menuButton = document.createElement("div");
   menuButton.setAttribute("id", "menuButton");
+  menuButton.setAttribute("value", "menu");
   menuButton.textContent = "Menu";
   navContainer.appendChild(menuButton);
 
   const contactButton = document.createElement("div");
   contactButton.setAttribute("id", "contactButton");
+  contactButton.setAttribute("value", "contact");
   contactButton.textContent = "Contact";
   navContainer.appendChild(contactButton);
   content.appendChild(navContainer);
