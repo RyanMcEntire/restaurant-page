@@ -1,3 +1,5 @@
+import potatoClose from "./potato-close.jpg"
+
 const content = document.querySelector("#content");
 
 const contact = () => {
@@ -14,9 +16,10 @@ const contact = () => {
     "There's usually someone around. We don't vacation often. If you don't see us, just holler.";
   fullContact.appendChild(contactContent);
   contactContainer.appendChild(fullContact);
-  const contactImage = document.createElement("img");
+  
+  const contactImage = new Image();
   contactImage.classList.add("contactImage");
-  contactImage.src = "../src/contact/potato-close.jpg";
+  contactImage.src = potatoClose;
   contactContainer.appendChild(contactImage);
 
   content.appendChild(contactContainer);

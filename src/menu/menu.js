@@ -1,3 +1,5 @@
+import  plainPotato  from "./plain-potato.jpg";
+
 const content = document.querySelector("#content");
 
 const menu = () => {
@@ -14,9 +16,10 @@ const menu = () => {
     "Its pretty self explanatory, if ya think about it. We serve the finest Full Potato, our specialty. We don't need anything too fancy here at The Full Potato, and if you're anything like us, we'd like to have ya try it.";
   fullMenu.appendChild(menuContent);
   menuContainer.appendChild(fullMenu);
-  const menuImage = document.createElement("img");
+  
+  const menuImage = new Image();
+  menuImage.src = plainPotato; 
   menuImage.classList.add("menuImage");
-  menuImage.src = "../src/menu/plain-potato.jpg"; 
   menuContainer.appendChild(menuImage);
 
   content.appendChild(menuContainer);
