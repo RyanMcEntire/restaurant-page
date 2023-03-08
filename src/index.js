@@ -40,4 +40,4 @@ clickContact.addEventListener("click", function () {
 // menu();
 // contact();
 
-console.log("cosnole lot dog");
+console.log("test");
